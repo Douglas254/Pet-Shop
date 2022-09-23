@@ -6,3 +6,8 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
  
+# Pet.create(name: "Timmy",breed: "Siamese")
+# Pet.create(name: "King",breed: "Tabyy")
+# Pet.create(name: "Luc",breed: "Siberian")
+
+Pet.create([{name: "Timmy",breed: "Siamese"},{name: "King",breed: "Tabyy"},{name: "Luc",breed: "Siberian"}])
