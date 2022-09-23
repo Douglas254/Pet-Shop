@@ -10,4 +10,6 @@
 # Pet.create(name: "King",breed: "Tabyy")
 # Pet.create(name: "Luc",breed: "Siberian")
 
-Pet.create([{name: "Timmy",breed: "Siamese"},{name: "King",breed: "Tabyy"},{name: "Luc",breed: "Siberian"}])
+# Pet.create([{name: "Timmy",breed: "Siamese"},{name: "King",breed: "Tabyy"},{name: "Luc",breed: "Siberian"}])
+
+Pet.create(name: Faker::Creature::Cat.name, breed: Faker::Creature::Cat.breed)
